@@ -2,4 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --main-background:#f3f4f6 ;
+    --text-color: #500724;
+    --nav-background: #ffedd5;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    background: var(--nav-background);
+
 }
